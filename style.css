@@ -1,0 +1,504 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* header background image */
+.profile{
+    height: 360px;
+}
+
+/* home page header */
+#header{
+    position: absolute;
+    top: 2%;
+    width: 100%;
+}
+
+#navbar-right{
+    margin-left: 70%;
+    font-size: 20px;
+}
+
+#navbar-right a:hover{
+    background-color: thistle;
+    color: black;
+}
+
+#logo:hover{
+    transform: scale(1.3);
+}
+
+/* other pages header */
+.navbar-nav a{
+    padding: 0;
+    color: white;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* login page */
+.login-body{
+    background-size: cover;
+}
+
+.login{
+    text-align: center;
+    border: 2px solid black;
+    background-color: beige;
+    margin-top: 2%;
+    width: 25%;
+    margin-left: 20%;
+    padding: 25px;
+}
+    
+#login-button{
+    background-color: blue;
+    color: white;
+    width: 30%;
+}
+
+/* signup page */
+.signup{
+    border: 2px solid black;
+    background-color: beige;
+    margin-top: 2%;
+    width: 30%;
+    margin-left: 35%;
+    padding: 30px;
+    font-size: small;
+}
+
+#signup-button{
+    margin-left: 35%;
+    background-color: blue;
+    color: white;
+    width: 30%;
+    margin-top: 10px;
+}
+
+#signup-head{
+    text-align: center;
+}
+.signup-misc{
+    text-align: center;
+}
+
+#inputMobile{
+    margin-right: 15%;
+    
+}
+
+.sidebar1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 15px;
+}
+
+.sidebar2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5px;
+}
+
+#aboutkeralahead{
+    text-align: center;
+}
+
+
+#aboutkeralapara{
+    text-align: justify;
+}
+
+#districtshead{
+    text-align: center;
+}
+
+#districtspara{
+    text-align: justify;
+}
+
+#specialitieshead{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.p-box{
+    padding: 6px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    float: left;
+    width: 20%;
+    height: 21em;
+}
+
+.p-box p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.p-box h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#planyourtriphead{
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 80%;
+margin-left: 28%;
+}
+
+#planyourtrippara{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#tripcontainer{
+    padding-left: 11%;
+}
+
+.d-box{
+    float: left;
+    margin-left: 3%;
+    margin-bottom: 10%;
+    padding-left: 18px;
+  
+    padding-top: 10px;
+    width: 14%;
+    
+    color: royalblue;
+}
+
+.d-box a{
+    text-decoration: none;
+    color: royalblue;
+ 
+}
+.d-box i:hover{
+    transform: scale(1.2);
+}
+
+#footer{
+
+    margin-top: 13%;
+    background-color: rgb(53, 49, 49);
+    color: white;
+    padding-top: 0px;
+  
+}
+
+#foot-note{
+    text-align: center;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#districtspic{
+    margin-left: 13%;
+}
+
+.b-box{
+   
+    height: 110em;
+    margin-left: 0px;
+    padding-right: 0;
+    margin-bottom: 2px;
+    float: left;
+    width: 13%;
+    height: 8em;
+}
+
+.b-box a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.b-box img:hover{
+    transform: scale(1.2);
+}
+
+/* disctricts common begins */
+#explorehead{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.box{
+    float: left;
+    width: 50%;
+}
+
+.card-img-top{
+    width: 200px;
+    height: 15em;
+}
+.card{
+    margin-left: 18%;
+    margin-bottom: 4%;
+}
+#page{
+    padding-top: 2px;
+    padding-right: 2em;
+    padding-left: 38em;
+}
+#page a:hover{
+background-color: dimgrey;
+color: white;
+}
+.page-item{
+    border: 1px solid black;
+}
+#cards{
+    border: 2px solid black;
+}
+.carousel-control-prev-icon{
+    background-color: dimgray;
+}
+.carousel-control-next-icon{
+    background-color: dimgray;
+}
+/* distrcts common ends */
+
+/* alapuzha begins */
+#aboutalapuzha{
+    background-image: url(images/alpy1.jpg);
+    background-size: cover;
+    /* opacity: 0.8; */
+    height: 36em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+#alapuzhapara{
+    margin-left: 7%;
+    margin-right: 7%;
+    color: black;
+}
+/* alapuzha ends */
+
+/* ekm begins */
+#aboutekm{
+    background-image: url(images/ekm1.jpg);
+    background-size: cover;
+    /* opacity: 0.8; */
+    height: 36em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+#ekmpara{
+    margin-left: 7%;
+    margin-right: 7%;
+    color: black;
+}
+/* ekm ends */
+
+/* wayanad begins */
+#aboutwayanad{
+    background-image: url(images/wynd.jpg);
+    background-size: cover;
+    /* opacity: 0.8; */
+    height: 36em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+#wayanadpara{
+    margin-left: 7%;
+    margin-right: 7%;
+    color: black;
+}
+/* wayanad ends */
+
+/* tvm begins */
+#abouttvm{
+    background-image: url(images/tvmbg.jpg);
+    background-size: cover;
+    /* opacity: 0.8; */
+    height: 36em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+#tvmpara{
+    margin-left: 7%;
+    margin-right: 7%;
+    color: black;
+}
+/* tvm ends */
+
+/* tcr begins */
+#abouttcr{
+    background-image: url(images/tcrbg1.jpg);
+    background-size: cover;
+    /* opacity: 0.8; */
+    height: 36em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+#tcrpara{
+    margin-left: 7%;
+    margin-right: 7%;
+    color: black;
+}
+/* tce ends */
+
+/* pathanamthitta begins */
+#aboutpathanamthitta{
+    background-image: url(images/pthnmthta.jpg);
+    background-size: cover;
+    /* opacity: 0.8; */
+    height: 36em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+#pathanamthittapara{
+    margin-left: 7%;
+    margin-right: 7%;
+    color: black;
+}
+/* pathanamthitta ends */
+
+/* pkd begins */
+#aboutpkd{
+    background-image: url(images/pkdbg.jpg);
+    background-size: cover;
+    /* opacity: 0.8; */
+    height: 36em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+#pkdpara{
+    margin-left: 7%;
+    margin-right: 7%;
+    color: black;
+}
+/* pkd ends */
+
+/* kasargod begins */
+#aboutkasargod{
+    background-image: url(images/ksrgd.jpg);
+    background-size: cover;
+    /* opacity: 0.8; */
+    height: 36em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+#kasargodpara{
+    margin-left: 7%;
+    margin-right: 7%;
+    color: black;
+}
+/* kasargod ends */
+
+/* kollam begins */
+#aboutkollam{
+    background-image: url(images/kollambg.jpg);
+    background-size: cover;
+    /* opacity: 0.8; */
+    height: 36em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+#kollampara{
+    margin-left: 7%;
+    margin-right: 7%;
+    color: black;
+}
+/* kollam ends */
+
+/* kottayam begins */
+#aboutkottayam{
+    background-image: url(images/kottayambg.jpg);
+    background-size: cover;
+    /* opacity: 0.8; */
+    height: 36em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+#kottayampara{
+    margin-left: 7%;
+    margin-right: 7%;
+    color: black;
+}
+/* kottayam ends */
+
+/* kozhikode begins */
+#aboutkozhikode{
+    background-image: url(images/kozhikodebg.jpeg);
+    background-size: cover;
+    /* opacity: 0.8; */
+    height: 36em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+#kozhikodepara{
+    margin-left: 7%;
+    margin-right: 7%;
+    color: black;
+}
+/* kozhikode ends */
+
+/* malappuram begins */
+#aboutmalappuram{
+    background-image: url(images/malappurambg.jpg);
+    background-size: cover;
+    /* opacity: 0.8; */
+    height: 36em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+#malappurampara{
+    margin-left: 7%;
+    margin-right: 7%;
+    color: black;
+}
+/* malappuram ends */
+
+/* idukki begins */
+#aboutidukki{
+    background-image: url(images/idukkibg.jpg);
+    background-size: cover;
+    /* opacity: 0.8; */
+    height: 36em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+#idukkipara{
+    margin-left: 7%;
+    margin-right: 7%;
+    color: black;
+}
+/* idukki ends */
+
+/* kannur begins */
+#aboutkannur{
+    background-image: url(images/kannurbg.jpg);
+    background-size: cover;
+    /* opacity: 0.8; */
+    height: 36em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+#kannurpara{
+    margin-left: 7%;
+    margin-right: 7%;
+    color: black;
+}
+/* kannur ends */
