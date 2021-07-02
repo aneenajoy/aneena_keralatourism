@@ -5,59 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="index.html">
-    <link rel="stylesheet" href="signup.html">
+    <link rel="stylesheet" href="login.html">
     <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/a4de3ba993.js" crossorigin="anonymous"></script>
 </head>
 <body class="login-body" background="images/login bg.jpg">
-    <!-- header begins -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-              <img src="images/logo.png" alt="" width="80" height="60">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" href="index.html">Home</a>
-              <a class="nav-link" href="signup.html">Sign Up</a>
-              <a class="nav-link active" aria-current="page" href="login.html">Login</a>
-              <a class="nav-link" href="districts.html">Districts</a>
-            </div>
-          </div>
-        </div>
-      </nav>
-      <!-- header ends -->
+   
 
-      <!-- login form begins -->
-      <form action="#" class="login">
-        <h2>Login</h2>
-        <br>
-        <div class="row mb-2">
-            <label class="col-sm-4 col-form-label">Username</label>
-            <div class="col-sm-7">
-              <input type="text" class="form-control" id="inputUsername">
-            </div>
-        </div>
-        <br>
-        <div class="row mb-2">
-            <label class="col-sm-4 col-form-label">Password</label>
-            <div class="col-sm-7">
-              <input type="password" class="form-control" id="inputPassword">
-            </div>
-        </div>
-        <br>
-        <div>
-            <button  id="login-button">Login</button>
-        </div>
-        <br>
-        <div class="login-misc">
-            <h5>Need an account?</h5>
-            <a href="signup.html">Sign Up</a>
-        </div>
-      </form>
-      <!-- login form ends -->
-
+  <!-- signup form begins -->
+  <form action="index.html" onsubmit="return checkinput()" id="log" class="login">
+    <h2 id="signup-head">Login</h2>
+    
+    <div class="form-control">
+        <input id="email" class="col-sm-7" type="text" placeholder="Email">
+        <i id="erroricon" class="fas fa-check-circle"></i>
+        <i id="erroricon" class="fas fa-exclamation-circle"></i>
+        <small>Error msg</small>
+    </div>
+    
+    <div class="form-control">
+        <input id="password" class="col-sm-7" type="password" placeholder="Password">
+        <i id="eye" class="fa fa-eye" ></i>
+        <i id="erroricon" class="fas fa-check-circle"></i>
+        <i id="erroricon" class="fas fa-exclamation-circle"></i>
+        <small>Error msg</small>
+        <span id="StrengthDisp" class="badge displayBadge">Weak</span>
+    </div>
+    
+    <div>
+        <button  id="signup-button">Login</button>
+    </div>
+    <div class="signup-misc">
+        <h5>Need an account?</h5>
+        <a href="signup.html">Signup</a>
+    </div>
+  </form>
+  <!-- signup form ends -->
+<script src="loginvalidate.js"></script>
 </body>
 </html>
