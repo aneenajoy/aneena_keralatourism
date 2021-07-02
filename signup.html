@@ -7,81 +7,67 @@
     <link rel="stylesheet" href="index.html">
     <link rel="stylesheet" href="login.html">
     <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/a4de3ba993.js" crossorigin="anonymous"></script>
 </head>
 <body class="signup-body" background="images/signupbg.jpg">
-   <!-- header begins -->
-   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-          <img src="images/logo.png" alt="" width="80" height="60">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link" href="index.html">Home</a>
-          <a class="nav-link active" aria-current="page" href="signup.html">Sign Up</a>
-          <a class="nav-link" href="login.html">Login</a>
-          <a class="nav-link" href="districts.html">Districts</a>
-        </div>
-      </div>
-    </div>
-  </nav>
-  <!-- header ends -->
+   
 
   <!-- signup form begins -->
-  <form action="#" class="signup">
+  <form action="login.html" onsubmit="return success()" id="sign" class="signup">
     <h2 id="signup-head">Sign Up</h2>
 
-    <div class="row"> 
-        <label class="col-sm-5">First Name</label>
-        <br>
-        <input class="col-sm-7" type="text">
+    <div class="form-control"> 
+        <input id="first" class="col-sm-7" type="text" placeholder="First Name">
+        <i id="erroricon" class="fas fa-check-circle"></i>
+        <i id="erroricon" class="fas fa-exclamation-circle"></i>
+        <small>Error msg</small>
     </div>
-    <br>
-    <div class="row">
-        <label class="col-sm-5">Last Name</label>
-        <br>
-        <input class="col-sm-7" type="text">
+    
+    <div class="form-control">
+        <input id="last" class="col-sm-7" type="text" placeholder="Last Name">
+        <i id="erroricon" class="fas fa-check-circle"></i>
+        <i id="erroricon" class="fas fa-exclamation-circle"></i>
+        <small>Error msg</small>
     </div>
-    <br>
-    <div class="row">
-        <label class="col-sm-5">Email</label>
-        <br>
-        <input class="col-sm-7" type="text">
+    
+    <div class="form-control">
+        <input id="email" class="col-sm-7" type="text" placeholder="Email">
+        <i id="erroricon" class="fas fa-check-circle"></i>
+        <i id="erroricon" class="fas fa-exclamation-circle"></i>
+        <small>Error msg</small>
     </div>
-    <br>
-    <div class="row">
-        <label class="col-sm-5">Mobile No</label>
-        <br>
-        <input class="col-sm-7" type="text">
+    
+    <div class="form-control">
+        <input id="phone" class="col-sm-7" type="text" placeholder="Mobile No. (10 digits)">
+        <i id="erroricon" class="fas fa-check-circle"></i>
+        <i id="erroricon" class="fas fa-exclamation-circle"></i>
+        <small>Error msg</small>
     </div>
-    <br>
-    <div class="row">
-        <label class="col-sm-5">Password</label>
-        <br>
-        <input class="col-sm-7" type="password">
+    
+    <div class="form-control">
+        <input id="password" class="col-sm-7" type="password" placeholder="Password">
+        <i id="eye" class="fa fa-eye" ></i>
+        <i id="erroricon" class="fas fa-check-circle"></i>
+        <i id="erroricon" class="fas fa-exclamation-circle"></i>
+        <small>Error msg</small>
+        <span id="StrengthDisp" class="badge displayBadge">Weak</span>
     </div>
-    <br>
-    <div class="row">
-        <label class="col-sm-5">Confirm Password</label>
-        <br>
-        <input class="col-sm-7" type="password">
+    <div class="form-control">
+        <input id="retype" class="col-sm-7" type="password" placeholder="Confirm Password">
+        <i id="erroricon" class="fas fa-check-circle"></i>
+        <i id="erroricon" class="fas fa-exclamation-circle"></i>
+        <small>Error msg</small>
     </div>
-    <br>
-
     
     <div>
         <button  id="signup-button">Sign Up</button>
     </div>
-    <br><br>
     <div class="signup-misc">
         <h5>Already have an account?</h5>
         <a href="login.html">Login</a>
     </div>
   </form>
   <!-- signup form ends -->
-
+<script src="validate.js"></script>
 </body>
 </html>
